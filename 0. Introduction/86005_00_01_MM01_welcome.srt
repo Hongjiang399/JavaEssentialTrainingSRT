@@ -1,0 +1,81 @@
+﻿1
+00:00:02,463 --> 00:00:03,963
+<u><b>字幕by: Hongjiang399
+微信：Hongjiang399</u></b>
+
+2
+00:00:04,213 --> 00:00:06,213
+您好！我是David Gassner.
+Hi! My name is David Gassner.
+
+3
+00:00:06,213 --> 00:00:09,213
+欢迎来到《Java语言基本培训》
+And I'd like to welcome you to Java Essential Training.
+
+4
+00:00:09,213 --> 00:00:13,213
+如果你想要开发用于Java企业服务器或者网页浏览器上
+If you want to build native Android apps, dynamic web applications for use on a
+
+5
+00:00:13,213 --> 00:00:18,213
+的动态网页应用或者本地安卓应用等
+Java Enterprise Edition Server or applets that are delivered through a web
+
+6
+00:00:18,213 --> 00:00:20,213
+那么您需要学习Java语言
+browser, you need to know Java.
+
+7
+00:00:20,213 --> 00:00:24,213
+在本课程里，我将教您怎么在Windows或者Mac OS X上
+In this course I'll show you how to download and install the Java Development
+
+8
+00:00:24,213 --> 00:00:30,213
+下载和安装Java开发工具(简称JDK)
+Kit on Windows and Mac OS X and how to get started with Eclipse, the free
+
+9
+00:00:30,213 --> 00:00:34,213
+以及教您使用免费的跨平台Java集成开发环境--Eclipse软件
+cross-platform IDE for Java developers from the Eclipse Foundation.
+
+10
+00:00:34,213 --> 00:00:39,213
+我将介绍编程语言的基本概念
+I'll introduce you to the basics of the programming language including its data
+
+11
+00:00:39,213 --> 00:00:42,213
+包括数据类型、关键字，以及最好的实践例子
+types, keywords and best practices.
+
+12
+00:00:42,213 --> 00:00:46,213
+Java是一门面向对象的语言，因此我也将介绍
+Since Java is a peer object-oriented language I'll describe how it implements
+
+13
+00:00:46,213 --> 00:00:51,213
+诸如封装、继承以及多态等概念
+concepts like encapsulation, inheritance, and polymorphism.
+
+14
+00:00:51,213 --> 00:00:55,213
+本课程的目的是让您可以开始利用Java语言
+The goal of this course is to get you started with Java so you can go on to
+
+15
+00:00:55,213 --> 00:01:00,213
+开发手机、桌面、网页及其他类型的应用。
+build mobile, desktop, Web or other types of applications.
+
+16
+00:01:00,213 --> 00:56:01,213
+让我们开始课程的学习吧
+So let's get started learning Java.
+<u><b>字幕GitHub: https://github.com/Hongjiang399/JavaEssentialTrainingSRT.git</u></b>
+
