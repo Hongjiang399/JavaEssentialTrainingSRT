@@ -1,0 +1,454 @@
+﻿1
+00:00:00,000 --> 00:00:02,000
+<u><b>字幕by: Hongjiang399
+微信：Hongjiang399</u></b>
+
+2
+00:00:00,213 --> 00:00:05,213
+这门《Java基本培训》目的是教你一些
+This course, Java Essential Training is designed to teach you the basics of the
+
+3
+00:00:05,213 --> 00:00:07,213
+Java编程语言的基本概念。
+Java programming language.
+
+4
+00:00:07,213 --> 00:00:10,213
+你可能会考虑这门课程是否适合你，本课程建议你
+You might be asking yourself whether this is the right course for you, and here
+
+5
+00:00:10,213 --> 00:00:12,213
+考虑以下几个方面。
+are some questions to ask.
+
+6
+00:00:12,213 --> 00:00:15,213
+首先，你想开发怎么样的软件？
+First of all, what kind of software do you want to create?
+
+7
+00:00:15,213 --> 00:00:19,213
+Java可以用于多种应用软件的开发
+Java is used to program a variety of applications.
+
+8
+00:00:19,213 --> 00:00:24,213
+你可以用Java来开发基于servlets、Java Server Pages (简称JSP)等
+You can use Java to build Web-based dynamic applications using programming
+
+9
+00:00:24,213 --> 00:00:29,213
+此类编程模型的动态网页应用。
+models known as servlets or Java Server Pages, also known as JSP.
+
+10
+00:00:29,213 --> 00:00:34,213
+Java也可以用来开发移动应用，例如应用于平板电脑和手机等
+Java is also used to program mobile applications, that is, applications that are
+
+11
+00:00:34,213 --> 00:00:39,213
+移动平台的安卓、黑莓应用。
+for the Android or BlackBerry mobile platforms, both phones and tablets.
+
+12
+00:00:39,213 --> 00:00:43,213
+还有很多其他类型的利用Java开发的应用
+And there are many other types of applications you can build with Java, and I'll
+
+13
+00:00:43,213 --> 00:00:45,213
+我将会在以后的视频中提及。
+explain some of these in later videos.
+
+14
+00:00:45,213 --> 00:00:48,213
+另外，Java跟很多其他语言是有区别的。
+There are some things however that Java is not.
+
+15
+00:00:48,213 --> 00:00:50,213
+Java不是JavaScript
+Java is not JavaScript.
+
+16
+00:00:50,213 --> 00:00:55,213
+JavaScript是与所有现代网页浏览器相结合的一门动态脚本语言
+JavaScript is the dynamic scripting language that's incorporated into all modern
+
+17
+00:00:55,213 --> 00:01:00,213
+用于创建动态网页应用，其代码
+Web browsers and is used to create dynamic applications where the application
+
+18
+00:01:00,213 --> 00:01:03,213
+能被浏览器直接运行
+code is executed by the browser itself.
+
+19
+00:01:03,213 --> 00:01:07,213
+虽然Java和JavaScript都有"Java"字样，但它们是
+Even though Java and JavaScript share the term Java, they are very
+
+20
+00:01:07,213 --> 00:01:09,213
+两门不同的语言
+different languages.
+
+21
+00:01:09,213 --> 00:01:13,213
+在语法和外观方面它们有相似之处，但你运行它们的方式
+They have some similarities in their syntax and appearance, but the way you use
+
+22
+00:01:13,213 --> 00:01:17,213
+以及它们内部的运行机制是有根本区别的。
+them and the way they work internally is completely different.
+
+23
+00:01:17,213 --> 00:01:21,213
+如果你想要学习如何搭建动态网页，且其代码
+So if your goal is to learn how to build dynamic webpages, where the code is
+
+24
+00:01:21,213 --> 00:01:25,213
+能够被浏览器直接运行，那么你需要学JavaScript
+executed in the browser, you should be learning JavaScript.
+
+25
+00:01:25,213 --> 00:01:29,213
+另外Java并不能用于开发所有移动平台的应用
+Java is also not used to build native mobile apps for all platforms.
+
+26
+00:01:29,213 --> 00:01:34,213
+它不能用于开发运用于iPhone和iPad等基于iOS系统
+It isn't used to build native iOS applications that is applications for
+
+27
+00:01:34,213 --> 00:01:35,213
+的本地应用
+the iPhone and iPad.
+
+28
+00:01:35,213 --> 00:01:41,213
+开发iOS应用你需学习Objective C语言以及Xcode开发软件
+For that you should use Objective C and the Xcode IDE, and it's also not used to
+
+29
+00:01:41,213 --> 00:01:44,213
+Java也不能用于开发Windows Phone应用
+build native Windows Phone applications.
+
+30
+00:01:44,213 --> 00:01:49,213
+Windows Phone是微软新开发的手机操作系统移动平台
+Windows Phone is the operating system of the new phone platform from Microsoft.
+
+31
+00:01:49,213 --> 00:01:54,213
+那里的应用需要用到C#或VB .NET等语言以及
+For those types of applications you should use either C# or VB.NET and some
+
+32
+00:01:54,213 --> 00:01:57,213
+Visual Studio开发环境
+version of the Visual Studio environment.
+
+33
+00:01:57,213 --> 00:02:01,213
+有些人认为Java不是世界上最简单的语言
+Some people think that Java isn't the easiest language in the world.
+
+34
+00:02:01,213 --> 00:02:05,213
+因其是一门编译型语言且具有严格的语法结构
+It is a compiled language and it has very strict data typing rules.
+
+35
+00:02:05,213 --> 00:02:09,213
+另外，你还需要了解面向对象的编程，从而更好地应用Java
+And in order to be effective in Java you need to understand something
+
+36
+00:02:09,213 --> 00:02:12,213
+开发应用，我将会在以后的课程中
+about object-oriented programming, but I'll be teaching you all that
+
+37
+00:02:12,213 --> 00:02:14,213
+教会你这些
+during this course.
+
+38
+00:02:14,213 --> 00:02:17,213
+从另一角度来看，Java同时也不是世界上
+And the other thing that's true of Java is that it's not the most difficult
+
+39
+00:02:17,213 --> 00:02:19,213
+最难的语言
+language in the world.
+
+40
+00:02:19,213 --> 00:02:22,213
+Java是一门具有高度一致性的语言
+Java is an incredibly consistent language.
+
+41
+00:02:22,213 --> 00:02:25,213
+一旦你学会了Java的语言规则，一旦你学会了从语言的角度
+Once you learn the rules of Java, once you learn how to think in the
+
+42
+00:02:25,213 --> 00:02:29,213
+思考问题，你将很快能够扩展你的应用工具以及
+languages' terms you will find that you can extend your tools and your
+
+43
+00:02:29,213 --> 00:02:32,213
+你的编程能力
+capabilities very, very quickly.
+
+44
+00:02:32,213 --> 00:02:36,213
+那么谁是本课程的目标学员呢？
+So who is the target audience for this particular course?
+
+45
+00:02:36,213 --> 00:02:39,213
+本课程是针对那些想利用Java编程语言开发应用的任何人的
+The course is designed for anybody who wants to build software using the Java
+
+46
+00:02:39,213 --> 00:02:44,213
+特别是针对其中已经对基本编程概念
+programming language, but specifically it's designed for those who already have
+
+47
+00:02:44,213 --> 00:02:47,213
+有所了解的人
+a basic programming vocabulary.
+
+48
+00:02:47,213 --> 00:02:52,213
+软件开发者们在交流的时候都有着他们都能理解的
+Software developers as with many trades have their own unique vocabulary
+
+49
+00:02:52,213 --> 00:02:55,213
+一些独特的具体名词
+incorporating terms that they all understand.
+
+50
+00:02:55,213 --> 00:02:59,213
+也许这些名词在不同编程语言中有不同的含义
+Many of these terms have different meanings from one programming language to
+
+51
+00:02:59,213 --> 00:03:02,213
+但开发者们都能顺利交流
+another, but programmers can talk to each other.
+
+52
+00:03:02,213 --> 00:03:06,213
+如果你不确定你是否理解了编程语言的基本名词
+So if you are not sure whether you have that vocabulary already in place,
+
+53
+00:03:06,213 --> 00:03:08,213
+这有一个小测试
+here is a little test.
+
+54
+00:03:08,213 --> 00:03:10,213
+你能回答以下问题吗？
+Can you answer these questions?
+
+55
+00:03:10,213 --> 00:03:15,213
+你不一定要从Java的角度来回答，但你是否
+You don't have to answer them in the context of Java, but can you answer these
+
+56
+00:03:15,213 --> 00:03:18,213
+能够简单引用其他编程语言来回答呢？
+very simply in reference to any programming language?
+
+57
+00:03:18,213 --> 00:03:21,213
+首先，什么是编程语句？
+First, what is a programming statement?
+
+58
+00:03:21,213 --> 00:03:22,213
+什么是变量？
+What is a variable?
+
+59
+00:03:22,213 --> 00:03:27,213
+什么是函数？什么是条件或者逻辑条件？
+What is a function, and what is a condition or a logical condition?
+
+60
+00:03:27,213 --> 00:03:31,213
+如果你能回答上述问题，那么你已经准备好了
+If you can answer these questions then you are ready for this course.
+
+61
+00:03:31,213 --> 00:03:36,213
+我会展示如何利用Java语言来描述这些名词以及
+I'll show you how these terms are used in Java and how they are implemented in
+
+62
+00:03:36,213 --> 00:03:39,213
+它们是怎么在这门特定语言中应用的
+this particular programming language.
+
+63
+00:03:39,213 --> 00:03:43,213
+如果你不熟悉这些名词，且你之前没有学过任何一种编程语言
+If these terms are foreign to you and you haven't worked with any programming
+
+64
+00:03:43,213 --> 00:03:47,213
+建议你先去学习这门课程：
+languages before, you might first want to watch this course.
+
+65
+00:03:47,213 --> 00:03:50,213
+《编程的基础：入门篇》
+Foundations of Programming: Fundamentals.
+
+66
+00:03:50,213 --> 00:03:54,213
+这门Lynda.com的课程可以解释清楚上述名词，以及向你展示
+This Lynda.com course explains these terms and shows you how they are
+
+67
+00:03:54,213 --> 00:03:58,213
+它们如何在多种不同语言中应用，包括Java
+implemented in a variety of programming languages, including Java;
+
+68
+00:03:58,213 --> 00:04:01,213
+学习了上述基本课程之后，你将完全为这门课程
+and after you watch this course you'll be completely ready for Java
+
+69
+00:04:01,213 --> 00:04:04,213
+做好了准备
+Essential Training.
+
+70
+00:04:04,213 --> 00:04:07,213
+对那些能够回答上述问题的人，或以前学过其他编程语言的人
+For those who can answer those questions and who might have worked in at least
+
+71
+00:04:07,213 --> 00:04:11,213
+你将会发现用过某门编程语言
+one previous programming language, you'll find that certain programming
+
+72
+00:04:11,213 --> 00:04:15,213
+将使你很容易学习Java语言
+languages get you ready for Java more easily than others.
+
+73
+00:04:15,213 --> 00:04:21,213
+Java是一门C类型的语言，它的语法和基本句式看起来
+Java is a C-Style language, that is, its syntax and basic appearance look very
+
+74
+00:04:21,213 --> 00:04:25,213
+很像C语言或者其他一些具有
+much like the language C and there are a number of programming languages who
+
+75
+00:04:25,213 --> 00:04:28,213
+同样特征的编程语言
+share these characteristics.
+
+76
+00:04:28,213 --> 00:04:33,213
+如果你曾用过这些语言的其中一门，那么你将很快能接受Java
+If you've worked in any of these languages you'll recognize Java very, very quickly.
+
+77
+00:04:33,213 --> 00:04:42,213
+这些语言包含: C, C++, C#, JavaScript, 甚至PHP
+They include C, C++, C#, JavaScript, and even PHP.
+
+78
+00:04:42,213 --> 00:04:47,213
+所有这些语言具有相同的基本语法，因此你将能够很快地
+All of these languages share basic syntax rules, and you'll be able to adapt
+
+79
+00:04:47,213 --> 00:04:50,213
+把你已有的知识应用到Java上
+your existing knowledge to Java very fast.
+
+80
+00:04:50,213 --> 00:04:54,213
+如果你曾用过句式上并不类似于Java的
+If you've worked in any other languages those languages might not match the
+
+81
+00:04:54,213 --> 00:04:56,213
+某一门语言
+basic appearance of Java.
+
+82
+00:04:56,213 --> 00:05:02,213
+这些语言可能包括Visual Basic, VB.NET或者ColdFusion开发者, ColdFusion
+These might include Visual Basic or VB. NET or ColdFusion developers, ColdFusion
+
+83
+00:05:02,213 --> 00:05:06,213
+标志型语言，或者是汇编语言等等
+Markup Language or Assembly language and many others.
+
+84
+00:05:06,213 --> 00:05:11,213
+如果你熟悉这些语言，或者是其他不类似于C语法类型的语言
+If you know any of these languages or any others that don't share C-Style
+
+85
+00:05:11,213 --> 00:05:15,213
+你也可以进行本课程的学习，因为在课程中
+syntax, you should still be ready for this course because along the way I am
+
+86
+00:05:15,213 --> 00:05:22,213
+我将会详细解释Java语法和Java概念，以及怎么应用
+going to explain Java syntax and Java concepts, and how to use Java variables
+
+87
+00:05:22,213 --> 00:05:25,213
+Java语句、函数和条件逻辑
+statements, functions, and conditional logic.
+
+88
+00:05:25,213 --> 00:05:29,213
+总之，只要你用过某一门编程语言，并且你能回答上述基本问题
+As long as you've worked in some programming language and can answer those basic
+
+89
+00:05:29,213 --> 00:05:31,213
+那么你就已经准备好了
+questions, you are ready.
+
+90
+00:05:31,213 --> 00:56:01,213
+现在让我们开始学习Java编程语言吧
+So let's get started learning the Java programming language.
+
+91
+00:05:33,000 --> 00:05:36,000
+<u><b>字幕GitHub: github.com/Hongjiang399/JavaEssentialTrainingSRT</u></b>
+
