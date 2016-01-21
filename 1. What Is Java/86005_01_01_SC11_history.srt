@@ -1,0 +1,355 @@
+﻿1
+00:00:00,213 --> 00:00:03,213
+<u><b>字幕：Hongjiang399  微信：Hongjiang399
+Java编程语言有很长的历史
+The Java programming language has a long history.</u></b>
+
+2
+00:00:03,213 --> 00:00:10,213
+1991年，Sun微系统公司开始了名为“The Green Project”项目
+It started in 1991 when Sun Microsystems began something called The Green Project.
+
+3
+00:00:10,213 --> 00:00:15,213
+这个项目的目标是创建一门新的可移植编程语言
+The goal of The Green Project was to create a new portable programming language,
+
+4
+00:00:15,213 --> 00:00:18,213
+新语言用于创建可在多种操作系统上运行的应用软件
+one that could be used to create applications that could be run on multiple
+
+5
+00:00:18,213 --> 00:00:23,213
+而不需要重新编译或移植代码
+operating systems without having to recompile or port the code.
+
+6
+00:00:23,213 --> 00:00:28,213
+这门语言最初的名字为"Oak(橡树)",因为当时有一颗橡树
+The original name of the language was Oak, for a large oak tree that stood
+
+7
+00:00:28,213 --> 00:00:30,213
+正好在发明者办公室的窗口外
+outside the windows of the developers' offices.
+
+8
+00:00:30,213 --> 00:00:34,213
+但在项目开始至新语言被发布的这段时间内
+But between the time the project began and the time the language was released,
+
+9
+00:00:34,213 --> 00:00:39,213
+它被重新命名为Java，因为这是当时开发者们很常喝的
+it was renamed as Java supposedly because of the amount of coffee that the
+
+10
+00:00:39,213 --> 00:00:41,213
+一种咖啡
+developers were drinking.
+
+11
+00:00:41,213 --> 00:00:46,213
+Java的首次发布是在1995年，从那之后Java经历了快速
+Java was first released to the public in 1995 and thereafter saw a rapid
+
+12
+00:00:46,213 --> 00:00:48,213
+的改革和变化
+evolution and change.
+
+13
+00:00:48,213 --> 00:00:54,213
+从1995年开始，“一次编写，随处运行”变得流行起来
+Starting in 1995 the phrase Write Once, Run Anywhere was popularized.
+
+14
+00:00:54,213 --> 00:00:58,213
+也就是说，Java的目标就是实现你只需写一次源代码，你只需
+Again the goal of Java was that you'd be able to write a program, you'd be able
+
+15
+00:00:58,213 --> 00:01:05,213
+编译一次而可以运行在Unix，Windows,Mac等
+to compile it once and then run it on UNIX, on Windows, on Mac, and other
+
+16
+00:01:05,213 --> 00:01:09,213
+多种操作系统，只要有一个Java虚拟机环境即可
+operating systems for which there was a Java virtual machine.
+
+17
+00:01:09,213 --> 00:01:12,213
+Java飞速发展
+Java evolved swiftly.
+
+18
+00:01:12,213 --> 00:01:16,213
+最早几年每年都有一个新版本发布
+In the early years there was a new release about once a year.
+
+19
+00:01:16,213 --> 00:01:22,213
+到1996年，Sun发布了第一个完整的Java开发工具(JDK)，并支持
+In 1996, Sun released the first complete Java Developers Kit or JDK supporting a
+
+20
+00:01:22,213 --> 00:01:28,213
+一大堆应用开发任务类型，版本号1.1,接下来一年
+broad range of application development tasks, version 1.1, the following year
+
+21
+00:01:28,213 --> 00:01:32,213
+的改进主要在Java的面向对象属性上，包括内部类和
+saw improvements to the object- oriented nature of Java with Inner classes and
+
+22
+00:01:32,213 --> 00:01:39,213
+JavaBeans，JDBC应用接口(用于数据库交流), RMI(远程方法调用)
+JavaBeans, the JDBC API for talking to databases, RMI or Remote Method
+
+23
+00:01:39,213 --> 00:01:45,213
+RMI运用于分布式系统，还有反射机制(用于改进Java的)
+Invocation for distributed systems, and Reflection for improving the dynamic
+
+24
+00:01:45,213 --> 00:01:47,213
+(动态特性)
+capabilities of the language.
+
+25
+00:01:47,213 --> 00:01:55,213
+到1998年，Java重塑品牌为J2SE，即Java第二个标准版本
+In 1998, Java was rebranded as J2SE or Java 2 Standard Edition.
+
+26
+00:01:55,213 --> 00:01:59,213
+标准版本是跟企业版本区分开来的，企业版本是
+The Standard Edition distinguished it from Enterprise Edition which was the
+
+27
+00:01:59,213 --> 00:02:03,213
+打造大型网页应用的开发框架
+framework for building large scale Web applications.
+
+28
+00:02:03,213 --> 00:02:07,213
+版本号是Java 2，也就是Java 1.2
+The version number was Java 2, version 1.2.
+
+29
+00:02:07,213 --> 00:02:12,213
+显得有点混乱，“J”后面的数字“2”存在了很多年
+A little confusing, and the 2 after the J stuck around for many, many years, but
+
+30
+00:02:12,213 --> 00:02:15,213
+但版本的递增却用小数点后面数字表现
+the versions were incremented using point numbers.
+
+31
+00:02:15,213 --> 00:02:23,213
+Java2SE 1.2 包含了swing图形API接口，用于创建桌面应用
+Java2SE 1.2 included the swing graphical API for building Desktop applications,
+
+32
+00:02:23,213 --> 00:02:28,213
+collections(集合类)框架用于管理多种数据元素，还有一些新工具
+the collections framework for managing multiple data elements, and new tools
+
+33
+00:02:28,213 --> 00:02:33,213
+包括即时编译器和Java插件，插件用于标准化
+including the Just-In-Time compiler and the Java Plug-in which standardized the
+
+34
+00:02:33,213 --> 00:02:35,213
+Java和网页浏览器的交叉版本
+version of Java across Web browsers.
+
+35
+00:02:35,213 --> 00:02:42,213
+两三年后J2SE 1.3版本新增了开发工具，有HotSpot虚拟机
+A couple of years later J2SE 1.3 added new tools including the HotSpot JVM,
+
+36
+00:02:42,213 --> 00:02:48,213
+这是一个新版本的Java虚拟机，还有Java声音API接口和一些漏洞修补
+a new version of the Java Virtual machine, the Java Sound API and improved debugging.
+
+37
+00:02:48,213 --> 00:02:56,213
+2002年的版本1.4新增了一些开发工具，到了2004年，一个主要的
+In 2002 version 1.4 added new tools in the language, and then in 2004, a major
+
+38
+00:02:56,213 --> 00:02:59,213
+更新版本发布了，即J2SE 5.0
+new release came out J2SE 5.0.
+
+39
+00:02:59,213 --> 00:03:03,213
+这个新版本的版本号是1.5,也是5.0
+This version was known both as 1.5 and 5.0.
+
+40
+00:03:03,213 --> 00:03:07,213
+但后面所有新版本的发布都只采用了主版本号递增
+But subsequent new releases would just use the major numbers.
+
+41
+00:03:07,213 --> 00:03:10,213
+也就是后来变成5.0, 6.0, 7.0...
+So it'd become 5.0, 6.0, 7.0 and so on.
+
+42
+00:03:10,213 --> 00:03:17,213
+J2SE 5.0是Java语言的一次重大改进，其中一项新特性叫Generics
+J2SE 5.0 was a major new change for the language, a new feature called Generics
+
+43
+00:03:17,213 --> 00:03:22,213
+其作用是让你能运用强集合性元素数据类型
+was implemented that lets you strongly data type collection elements.
+
+44
+00:03:22,213 --> 00:03:28,213
+还改进了枚举类、可变参数、以及for-each循环结构
+Enumerations, variable arguments, and looping with for-each were all improved.
+
+45
+00:03:28,213 --> 00:03:34,213
+从语言的语法上看，那是最后一次Java语言的重大改进
+And in terms of language syntax this was really the last major change to the language.
+
+46
+00:03:34,213 --> 00:03:37,213
+从那以后Java的改进都属于边角修复
+Everything since then has been nibbling around the edges.
+
+47
+00:03:37,213 --> 00:03:41,213
+到2006年，Java 6.0发布
+In 2006 Java 6.0 came out.
+
+48
+00:03:41,213 --> 00:03:45,213
+改进了数据库连接性能、图形化编程
+It improved performance for database connectivity, improved graphical
+
+49
+00:03:45,213 --> 00:03:49,213
+以及增加其他一些小的特性
+programming and added other small features to the language.
+
+50
+00:03:49,213 --> 00:03:57,213
+后来改进的脚步减缓了，从2006年到2010年Sun微系统发布的
+And then the pace of change slowed, from 2006 to 2010 Sun Microsystems released
+
+51
+00:03:57,213 --> 00:03:59,213
+都属于临时的维护版本
+occasional maintenance releases to the language.
+
+52
+00:03:59,213 --> 00:04:04,213
+你会看到Java 6.0的维护版本如10, 11, 12...
+So you'd have Java 6.0 Maintenance Release 10, 11, 12, and so on.
+
+53
+00:04:04,213 --> 00:04:10,213
+到本课程为止，Java 6.0的维护版本29是最新的
+And as of this recording Java 6.0 Maintenance Release 29 is the most recent
+
+54
+00:04:10,213 --> 00:04:12,213
+一个Java 6.0版本
+version of that version of Java.
+
+55
+00:04:12,213 --> 00:04:17,213
+到了2010年，一个大事件发生了：甲骨文收购了Sun
+Then in 2010 a major event occurred. Oracle bought Sun.
+
+56
+00:04:17,213 --> 00:04:22,213
+Sun微系统品牌以及所有资产，包括Java编程语言
+Sun Microsystems and all of its assets including the Java programming language
+
+57
+00:04:22,213 --> 00:04:24,213
+都编程了甲骨文的一部分
+became a part of Oracle.
+
+58
+00:04:24,213 --> 00:04:29,213
+到本课程的录制为止，甲骨文集团正维护运营着Java语言
+And as of the time of this recording Oracle Corporation manages Java along with
+
+59
+00:04:29,213 --> 00:04:34,213
+以及JCP，即Sun创始的Java社区流程
+JCP, the Java Community Process that Sun began.
+
+60
+00:04:34,213 --> 00:04:38,213
+到2011年J2SE 7发布了
+In 2011 J2SE 7 was released.
+
+61
+00:04:38,213 --> 00:04:44,213
+其中包含了一些如列表所示的小改进，以及增加其他一些小工具
+It included minor changes in the language listed here and some other small scale tools.
+
+62
+00:04:44,213 --> 00:04:49,213
+我们将会看到新版本的Java在未来发布，很可能会被命名
+And we are expecting another version of Java down the road, possibly known as
+
+63
+00:04:49,213 --> 00:04:53,213
+J2SE 8.0，其中将会包含一些跟7.0版本不一样的地方
+J2SE 8.0 and it would include many things that were deferred from the version
+
+64
+00:04:53,213 --> 00:04:58,213
+例如包含一种叫Lambda表达式或闭包
+7.0 effort including something called Lambda expressions or closures.
+
+65
+00:04:58,213 --> 00:05:02,213
+如果你不了解这些，不必担心，现在这些都还不是
+If you don't know what those are, don't worry about it, they are not currently a
+
+66
+00:05:02,213 --> 00:05:04,213
+Java语言的一部分
+part of the Java language.
+
+67
+00:05:04,213 --> 00:05:08,213
+总之，这就是Java语言的全部历史
+So that's what's happened in the world of Java since it began.
+
+68
+00:05:08,213 --> 00:05:13,213
+自1995年以来Java就是一个强大的存在，被用在很多
+Java has been around in strength since 1995 and it's been used in a lot of
+
+69
+00:05:13,213 --> 00:05:16,213
+编程环境中，我将会介绍其中一些编程环境
+programming environments, and I'll talk about some of those programming
+
+70
+00:05:16,213 --> 00:56:01,213
+请见下一视频
+environments in the next video.
+
+71
+00:05:17,500 --> 00:05:19,000
+<u><b>字幕GitHub: https://github.com/Hongjiang399/JavaEssentialTrainingSRT.git</u></b>
+
