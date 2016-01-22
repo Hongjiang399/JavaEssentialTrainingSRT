@@ -1,0 +1,629 @@
+﻿1
+00:00:00,213 --> 00:00:04,213
+<u><b>字幕：Hongjiang399  微信：Hongjiang399
+Java编程语言随着很多年的发展，有着
+The Java programming language has been developed over the years following some</u></b>
+
+2
+00:00:04,213 --> 00:00:06,213
+十分严格的原则
+very strict principles.
+
+3
+00:00:06,213 --> 00:00:11,213
+Java刚开始被创建时有5个原则，第一
+The five principles of Java as declared when Java was created include, first,
+
+4
+00:00:11,213 --> 00:00:14,213
+Java是一门简单的、面向对象的并且容易熟悉的语言
+that it's a simple, object- oriented, and familiar language.
+
+5
+00:00:14,213 --> 00:00:18,213
+它的简约性主要取决于其高度一致性
+Its simplicity lies greatly in its consistency.
+
+6
+00:00:18,213 --> 00:00:21,213
+一旦你学会在Java中做某件事情，你将学会用同样的办法
+Once you learn how to do one thing in Java, you know how to do it the same
+
+7
+00:00:21,213 --> 00:00:25,213
+利用整个语言做同样的事情，因其从来不会偏离
+way throughout the language because it never deviates from the way the
+
+8
+00:00:25,213 --> 00:00:27,213
+其语言的基本结构
+language is architected.
+
+9
+00:00:27,213 --> 00:00:29,213
+这是一门面向对象语言
+It's an object-oriented language.
+
+10
+00:00:29,213 --> 00:00:34,213
+因此你一旦理解了封装、继承、和多态等原理
+So once you understand the principles of encapsulation, inheritance, and
+
+11
+00:00:34,213 --> 00:00:38,213
+以及它们在Java编程语言中的实现方式
+polymorphism and how those are implemented in the Java programming language,
+
+12
+00:00:38,213 --> 00:00:42,213
+你将会对如何构建你自己的程序有更深的感触
+you'll have a much better sense of how to architect your applications.
+
+13
+00:00:42,213 --> 00:00:48,213
+对于那些应用C类型语言来工作的开发者们，例如C、C++等
+And for developers who've worked with C-Style languages like C and C++, the
+
+14
+00:00:48,213 --> 00:00:51,213
+Java的语法是很熟悉的
+syntax of Java is very familiar.
+
+15
+00:00:51,213 --> 00:00:54,213
+Java是一门坚固而安全的语言
+Java was created to be robust and secure.
+
+16
+00:00:54,213 --> 00:00:59,213
+它的坚固性主要取决于其面向对象的特性，因为
+Its robustness lies greatly in its object-oriented characteristics, because
+
+17
+00:00:59,213 --> 00:01:04,213
+你把所有东西都设计成了对象，每个东西都有其方法、函数
+you're designing everything as an object, everything has methods or functions
+
+18
+00:01:04,213 --> 00:01:06,213
+及其性质(也即fields)
+and properties also known as fields.
+
+19
+00:01:06,213 --> 00:01:11,213
+程序的创建是通过把多个类结合在一起而实现的
+And you create applications by combining multiple classes together.
+
+20
+00:01:11,213 --> 00:01:16,213
+这让你能够把你的代码分成小块，并很容易进行调试和
+This lets you create your code in small chunks and it makes it easy to debug and
+
+21
+00:01:16,213 --> 00:01:19,213
+长时间维护你的程序
+maintain your applications over time.
+
+22
+00:01:19,213 --> 00:01:23,213
+Java是一门便携性的语言，因此你能够只编译一次
+Java was designed to be portable, so that you'd be able to compile it once and
+
+23
+00:01:23,213 --> 00:01:27,213
+然后在多种操作系统和处理器上运行程序
+then run your application on multiple operating systems and processors.
+
+24
+00:01:27,213 --> 00:01:30,213
+Java也是一门高性能的语言
+Java was created to be high-performance.
+
+25
+00:01:30,213 --> 00:01:34,213
+最初版本的Java虚拟机并不如C++快
+The original version of the Java Virtual Machine wasn't as fast as C++
+
+26
+00:01:34,213 --> 00:01:39,213
+但随着时间推移它有了很大的改进，现如今
+applications, but over the years it's been improved enormously, and today
+
+27
+00:01:39,213 --> 00:01:46,213
+Java程序运行跟C++程序一样快甚至可以更快
+Java applications run just as fast or sometimes even faster than applications built in C++.
+
+28
+00:01:46,213 --> 00:01:51,213
+最后，Java是一门解释型语言，它支持
+And finally Java was created as an interpreted language, it supports
+
+29
+00:01:51,213 --> 00:01:53,213
+多线程并且具有动态性
+multithreading and it's dynamic.
+
+30
+00:01:53,213 --> 00:01:57,213
+解释型语言表明其程序需先编译成一种格式文件
+Interpreted, means that the application is compiled to a format that's
+
+31
+00:01:57,213 --> 00:02:03,213
+其可以在运行时被解释，而不是像机器码那样直接被运行
+interpreted at runtime rather than being run as machine code directly, this is
+
+32
+00:02:03,213 --> 00:02:05,213
+这是Java具有便捷性的原因
+what makes the applications portable.
+
+33
+00:02:05,213 --> 00:02:09,213
+Java是多线程的，它可以用来很容易地创建多任务程序
+It's multithreaded, and it makes it easy to build applications that do more than
+
+34
+00:02:09,213 --> 00:02:11,213
+one thing at the same time.
+
+35
+00:02:11,213 --> 00:02:16,213
+Java是一门动态语言，意味着它的数据类型可以在运行时相互转换
+And it's dynamic, in that it can change data types at runtime as long as those
+
+36
+00:02:16,213 --> 00:02:19,213
+只要这些数据类型是兼容的
+data types are compatible with each other.
+
+37
+00:02:19,213 --> 00:02:22,213
+下面是Java的运行结构
+Here is the runtime architecture of Java.
+
+38
+00:02:22,213 --> 00:02:26,213
+再一次，Java是解释型语言，即程序被编译成
+Again, it's an interpreted language, the application is compiled to
+
+39
+00:02:26,213 --> 00:02:29,213
+字节码而非机器码，这是Java具有便捷性的原因
+bytecode rather than machine language, and that's what makes it portable
+
+40
+00:02:29,213 --> 00:02:30,213
+可适用于不同操作系统
+between operating systems.
+
+41
+00:02:30,213 --> 00:02:37,213
+这是当你运行程序时的整个软件状态
+Here is the software stat that's used at runtime when you run your application.
+
+42
+00:02:37,213 --> 00:02:39,213
+从操作系统开始
+You start with the operating system.
+
+43
+00:02:39,213 --> 00:02:45,213
+你可以在Windows、Mac、Linux、Solaris以及其他系统上运行Java程序
+You can run Java applications on Windows, Mac, Linux, Solaris, and any other
+
+44
+00:02:45,213 --> 00:02:49,213
+只要系统上有可用的Java虚拟机
+operating system for which there is a usable Java Virtual Machine.
+
+45
+00:02:49,213 --> 00:02:53,213
+大多数情况下你所用的Java虚拟机是源自
+The Java Virtual Machine you use most of the time will be the one provided by
+
+46
+00:02:53,213 --> 00:02:58,213
+甲骨文的，其最初由Sun公司开发，但也有其他的Java虚拟机
+Oracle, the one that was created by Sun Microsystems, but there are other JVMs
+
+47
+00:02:58,213 --> 00:03:03,213
+例如创建自IBM的、由谷歌所提供的安卓虚拟机
+out there provided by IBM, the Virtual Machine that's provided for Android by
+
+48
+00:03:03,213 --> 00:03:06,213
+还有一些其他虚拟机
+Google and many others.
+
+49
+00:03:06,213 --> 00:03:11,213
+虚拟机上有核心运行时库以及一些额外的库
+On top of the Virtual Machine you add the core runtime and additional libraries.
+
+50
+00:03:11,213 --> 00:03:16,213
+核心运行时库有时也被称为Java类库，包含了
+The core runtime is sometimes called the Java Class Library, and it consists of
+
+51
+00:03:16,213 --> 00:03:21,213
+所有由Java开发工具所提供的功能函数
+all of the functionality that's provided with the core Java developer toolkit.
+
+52
+00:03:21,213 --> 00:03:28,213
+最后，你的程序是作为编译过的字节码在最上层运行的
+And finally your application runs on top of all that once again as compiled bytecode.
+
+53
+00:03:28,213 --> 00:03:31,213
+让我们比较一下Java和其他一些语言
+So let's compare Java to a couple of popular languages.
+
+54
+00:03:31,213 --> 00:03:38,213
+首先是C++，Java最初是由C++开发者创建的，他们想着
+First C++, Java was originally created by C++ developers and they had in mind
+
+55
+00:03:38,213 --> 00:03:41,213
+要改善开发者的机遇
+improving the developers' lot.
+
+56
+00:03:41,213 --> 00:03:44,213
+下面是Java和C++的一些不同点
+Here are some ways in which Java is different from C++.
+
+57
+00:03:44,213 --> 00:03:49,213
+如果你是一个C开发者，那么你的代码也可在C++中运行
+If you're a C developer all of your code can be run in C++ as well.
+
+58
+00:03:49,213 --> 00:03:53,213
+这两门语言是相互兼容的，但Java就不是这样的
+The two languages are compatible with each other, that's not true for Java.
+
+59
+00:03:53,213 --> 00:04:00,213
+尽管Java在语法上很接近C和C++，但其代码具有独立性
+Even though Java has syntax that's very similar to C and C++, its code is unique.
+
+60
+00:04:00,213 --> 00:04:02,213
+它有着独立的规则和独立的语法
+It has its own rules and its own syntax.
+
+61
+00:04:02,213 --> 00:04:08,213
+我之前提到C++是直接编译成机器码来运行
+I have mentioned earlier that C++ is compiled to native machine language and
+
+62
+00:04:08,213 --> 00:04:12,213
+从而运行非常快速，并可以调用底层函数，
+while that makes it very fast and gives it access to low-level functions, it
+
+63
+00:04:12,213 --> 00:04:17,213
+这意味着你需要针对不同操作系统和处理器进行重新编译
+means that your application has to be recompiled for each operating system and
+
+64
+00:04:17,213 --> 00:04:19,213
+从而在特定环境中运行
+processor that you want to target.
+
+65
+00:04:19,213 --> 00:04:22,213
+Java是被编译成字节码的
+Java is compiled to bytecode.
+
+66
+00:04:22,213 --> 00:04:27,213
+因C++直接编译成机器码的，所以它允许你直接调用
+Because C++ is compiled to native machine language, it allows direct calls
+
+67
+00:04:27,213 --> 00:04:28,213
+本地系统的功能
+to the native system.
+
+68
+00:04:28,213 --> 00:04:34,213
+Java中有一个接口叫做Java本地接口，简称JNI
+In Java there is an interface called Java Native Interface sometimes called JNI,
+
+69
+00:04:34,213 --> 00:04:37,213
+其让你能通过Java虚拟机调用本地系统的功能
+that lets you call those native functions through the JVM.
+
+70
+00:04:37,213 --> 00:04:44,213
+C++让你可以只写一次代码，只要你遵循标准C++语法，然后你
+C++ lets you write once and then as long as you followed standard C++ syntax you
+
+71
+00:04:44,213 --> 00:04:48,213
+可以在各个操作系统中进行重新编译，相比之下
+can recompile for each operating system you are targeting, whereas the
+
+72
+00:04:48,213 --> 00:04:52,213
+Java的原则是“一次编写，随处运行”
+principles of Java say that you can write once and run anywhere.
+
+73
+00:04:52,213 --> 00:04:57,213
+Java运行于一个受保护的虚拟机环境，再一次，你需要
+Java runs in a protected virtual machine environment, and again, you have to go
+
+74
+00:04:57,213 --> 00:05:02,213
+通过JNI接口来实现对底层系统功能的调用
+through that JNI interface to make those low-level system function calls.
+
+75
+00:05:02,213 --> 00:05:04,213
+下面是另一个这两门语言十分明显的不同点
+Here's a way in which the two languages are very different.
+
+76
+00:05:04,213 --> 00:05:09,213
+C++需要详尽的内存管理以及运用指针
+C++ requires explicit memory management and uses pointers.
+
+77
+00:05:09,213 --> 00:05:15,213
+因此C++程序可能具有内存泄漏，除非开发者
+C++ applications as a result can have memory leaks and it's up to the developer
+
+78
+00:05:15,213 --> 00:05:19,213
+确保在程序中闭合了所有的漏洞
+to make sure that they've sealed up all the holes in their application.
+
+79
+00:05:19,213 --> 00:05:22,213
+而Java语言会为你自动管理内存
+In Java, memory is managed for you.
+
+80
+00:05:22,213 --> 00:05:27,213
+每当你创建了一个类/对象的实例，Java虚拟机
+When you create instances of classes or objects, the Java Virtual Machine
+
+81
+00:05:27,213 --> 00:05:29,213
+会自动分配内存
+automatically allocates the memory.
+
+82
+00:05:29,213 --> 00:05:34,213
+当你用完这个对象，Java虚拟机会打扫内存并销毁
+And when you're done with the objects the JVM sweeps up the memory by destroying
+
+83
+00:05:34,213 --> 00:05:38,213
+没被引用的对象，这个功能叫垃圾回收器
+dereferenced objects, this is called the Garbage Collector.
+
+84
+00:05:38,213 --> 00:05:42,213
+这意味着在Java程序中你不需要知道具体有多少
+This means that in Java applications you don't have to know specifically how
+
+85
+00:05:42,213 --> 00:05:46,213
+内存被消耗，但你还是需要注意
+much memory is being used at any given time, you still have to pay attention to
+
+86
+00:05:46,213 --> 00:05:50,213
+确保你只创建了所必需的对象
+making sure that you only create the objects you need.
+
+87
+00:05:50,213 --> 00:05:56,213
+在C++中你可以运用多重继承，也就是当你定义
+And in C++ you can use multiple inheritance, this means that when you define an
+
+88
+00:05:56,213 --> 00:06:00,213
+一个对象时你可以使之从多个父类继承而来
+object you can inherit functionality for multiple super classes.
+
+89
+00:06:00,213 --> 00:06:05,213
+而Java采用的是单继承模型，因此你只能继承自唯一
+The Java inheritance model is single inheritance so you can only inherit
+
+90
+00:06:05,213 --> 00:06:07,213
+一个直接的父类
+directly from a single superclass.
+
+91
+00:06:07,213 --> 00:06:10,213
+这使得你更容易找到问题，特别是
+This makes it easier to figure out where there are problems when your
+
+92
+00:06:10,213 --> 00:06:13,213
+你的程序有错误的时候
+application has bugs.
+
+93
+00:06:13,213 --> 00:06:16,213
+让我们比较一下Java和JavaScript
+Let's also compare Java to JavaScript.
+
+94
+00:06:16,213 --> 00:06:20,213
+虽然这两门语言都有名词“Java”，但它们其实
+Even though the names of these languages share the term Java, they are really
+
+95
+00:06:20,213 --> 00:06:22,213
+并没什么关系
+not closely related.
+
+96
+00:06:22,213 --> 00:06:26,213
+Java不兼容前面的两门语言，即使它
+Java again wasn't compatible with previous languages even though it
+
+97
+00:06:26,213 --> 00:06:28,213
+借鉴了C的语法
+borrowed syntax from C.
+
+98
+00:06:28,213 --> 00:06:34,213
+JavaScript有一个基本标准叫ECMAScript
+JavaScript has morphed into a standard known as ECMAScript or ECMAScript.
+
+99
+00:06:34,213 --> 00:06:38,213
+其他同样基于ECMAScript标准的包括Adobe的
+Other languages that are based on the ECMAScript standard include Adobe's
+
+100
+00:06:38,213 --> 00:06:44,213
+ActionScript 3.0和微软的JScript，还有其他一些
+ActionScript 3.0 and JScript from Microsoft and a number of others.
+
+101
+00:06:44,213 --> 00:06:48,213
+Java先被编译成字节码然后在运行时被解释
+Java is compiled to bytecode and interpreted at runtime.
+
+102
+00:06:48,213 --> 00:06:52,213
+而JavaScript是直接从源代码解释而来的
+JavaScript is interpreted directly from source code.
+
+103
+00:06:52,213 --> 00:06:56,213
+Java可以通过JNI接口调用底层功能，而
+Java can make native function calls through the JNI interface, while in
+
+104
+00:06:56,213 --> 00:07:01,213
+JavaScript只要是运行在浏览器上，它就必须被一个
+JavaScript at least as it's implemented in a browser, is restricted to something
+
+105
+00:07:01,213 --> 00:07:03,213
+浏览器沙盒所限制
+called a browser Sandbox.
+
+106
+00:07:03,213 --> 00:07:09,213
+它只能运行在一个沙盒中，且不能调用本地底层功能
+It can only play in the Sandbox, and it can't make native function calls.
+
+107
+00:07:09,213 --> 00:07:11,213
+Java是一次编写，随处运行
+Java is write once, run anywhere.
+
+108
+00:07:11,213 --> 00:07:16,213
+而JavaScript更为便捷，因其兼容
+JavaScript is even more portable in the sense that it has brought compatibility
+
+109
+00:07:16,213 --> 00:07:19,213
+多种浏览器和操作系统
+in many browsers and many operating systems.
+
+110
+00:07:19,213 --> 00:07:24,213
+Java运行于一个受保护的虚拟机，但你必须确保
+Java runs in a protected virtual machine but you have to explicitly have that
+
+111
+00:07:24,213 --> 00:07:26,213
+虚拟机已经被安装
+virtual machine installed.
+
+112
+00:07:26,213 --> 00:07:31,213
+类似地，JavaScript运行于浏览器中，受限于
+And in a similar fashion JavaScript is executed by the browser and restricted to
+
+113
+00:07:31,213 --> 00:07:34,213
+特定的浏览器沙盒，出于安全考虑
+that browser sandbox for security.
+
+114
+00:07:34,213 --> 00:07:39,213
+两门语言均自动为你管理内存，均不需要你
+Both languages manage the memory for you, neither requires that you specifically
+
+115
+00:07:39,213 --> 00:07:41,213
+对内存分配和打扫
+allocate or deallocate memory.
+
+116
+00:07:41,213 --> 00:07:47,213
+从继承角度看，Java使用了传统的类的继承
+And in terms of inheritance, Java uses a traditional class-based inheritance
+
+117
+00:07:47,213 --> 00:07:51,213
+也即你定义类，然后继承其功能
+where you define classes and then inherit their functionality.
+
+118
+00:07:51,213 --> 00:07:55,213
+JavaScript使用一种叫原型继承
+JavaScript uses something called prototype-based inheritance.
+
+119
+00:07:55,213 --> 00:08:00,213
+这种继承允许你在运行时增加函数、属性、以及一些其他功能到
+This model allows you to add functions, properties, and other functionality to a
+
+120
+00:08:00,213 --> 00:08:05,213
+定义过的类中，这是Java所不允许的
+pre-defined class at runtime, something Java doesn't allow you to do.
+
+121
+00:08:05,213 --> 00:08:09,213
+综上，这就是Java的一些规则，以及跟
+So that's a look at the principles of Java and how you might compare this
+
+122
+00:08:09,213 --> 00:08:13,213
+C++和JavaScript的一些对比
+language to C++ and JavaScript.
+
+123
+00:08:13,213 --> 00:08:19,213
+从排序来说，你可以认为C++是最为严格的，Java
+In the continuum of languages you might play C++ at the strictest level, Java
+
+124
+00:08:19,213 --> 00:08:23,213
+位于中间，而JavaScript是最具动态性的。
+somewhere in the middle, and JavaScript at the most dynamic.
+
+125
+00:08:23,213 --> 00:56:01,213
+你可以使用Java，尤其是搭建只有它才最适合的应用的时候
+And you typically use Java when you want to build applications that rely on that language.
+
+126
+00:08:26,500 --> 00:08:28,000
+<u><b>字幕GitHub: https://github.com/Hongjiang399/JavaEssentialTrainingSRT.git</u></b>
+
