@@ -1,0 +1,655 @@
+﻿1
+00:00:00,213 --> 00:00:05,213
+<u><b>字幕：Hongjiang399  微信：Hongjiang399
+当你从甲骨文网站下载和安装Java时，你其实是
+When you download and install Java from Oracle you are installing a number</u></b>
+
+2
+00:00:05,213 --> 00:00:06,213
+安装一系列开发工具
+of development tools.
+
+3
+00:00:06,213 --> 00:00:12,213
+安装包叫做Java SE开发工具(JDK)，其包含
+The package is called the Java SE Development Kit or JDK and it includes the
+
+4
+00:00:12,213 --> 00:00:15,213
+执行器，编译器以及其他工具
+runtime, a compiler, and many other tools.
+
+5
+00:00:15,213 --> 00:00:18,213
+第一个你将用到的是编译器
+The first tool you'll be using is the compiler.
+
+6
+00:00:18,213 --> 00:00:21,213
+这是一个叫javac的程序
+It's an application called javac.
+
+7
+00:00:21,213 --> 00:00:24,213
+这个程序的名字是统一的，不管你
+And the name of the application will be the same, regardless of whether you are
+
+8
+00:00:24,213 --> 00:00:29,213
+用的是Mac、Windows、Linux或者其他操作系统
+working on Mac, Windows, Linux or any other operating system.
+
+9
+00:00:29,213 --> 00:00:33,213
+当你运行javac时，你需提供你的源码文件名称，然后
+When you run javac you are provided with the names of your source code files and
+
+10
+00:00:33,213 --> 00:00:37,213
+javac将会输出一些字节码文件
+the resulting output will be a set of bytecode files.
+
+11
+00:00:37,213 --> 00:00:41,213
+当运行一程序时你需要运用“java”命令
+To run an application you use the command java.
+
+12
+00:00:41,213 --> 00:00:44,213
+这命令对于任何操作系统也是统一的
+Again it looks the same on any operating system.
+
+13
+00:00:44,213 --> 00:00:48,213
+当你运行java命令，你需提供一个类的名称
+When you run the java command, you'll provide it with the name of the class that
+
+14
+00:00:48,213 --> 00:00:50,213
+该类包含程序的开头
+you want to start with.
+
+15
+00:00:50,213 --> 00:00:53,213
+我随后将会展示一些例子
+I'll show you an example of that in a few moments.
+
+16
+00:00:53,213 --> 00:00:56,213
+JDK也包含了另一些工具
+The JDK also includes many other tools.
+
+17
+00:00:56,213 --> 00:01:00,213
+"jar"工具让你可以打包你编写的程序
+The jar tool lets you package up your applications.
+
+18
+00:01:00,213 --> 00:01:04,213
+一个完整的Java程序通常包含很多类，当你
+A complete Java application will typically consist of many classes, and when you
+
+19
+00:01:04,213 --> 00:01:08,213
+编译这些类时，你会得到一大堆独立文件
+compile the classes, you end up with a whole bunch of files.
+
+20
+00:01:08,213 --> 00:01:12,213
+但如果打包成一个文件，那在发布程序时将很方便，
+But it's a lot more convenient to deliver the application as a single file, and
+
+21
+00:01:12,213 --> 00:01:15,213
+这时你可以用jar程序来实现打包
+so you use the jar application to do that packaging.
+
+22
+00:01:15,213 --> 00:01:20,213
+当你打包文件时，会得到一个zip格式的压缩文件
+When you package up the files you end up with an archive file in zip format, but
+
+23
+00:01:20,213 --> 00:01:23,213
+文件的扩展名为".jar"
+with the file extension of .jar.
+
+24
+00:01:23,213 --> 00:01:29,213
+javadoc程序可以根据你在代码中的注释创建文档
+The javadoc application lets you create documentation based on comments in your source code.
+
+25
+00:01:29,213 --> 00:01:33,213
+我将会在以后的视频中介绍
+I'll show you how to use this in a later video in the series.
+
+26
+00:01:33,213 --> 00:01:37,213
+还有很多其他命令也是包含在JDK当中的
+And there are many other command line tools that are a part of the JDK.
+
+27
+00:01:37,213 --> 00:01:39,213
+那么，你该如何开始？
+So how do you get started?
+
+28
+00:01:39,213 --> 00:01:45,213
+Java程序是从包含源代码的纯文本文件来构建的
+Well your Java applications are built in source code files that are pure text files.
+
+29
+00:01:45,213 --> 00:01:49,213
+你可以用任何文本编辑器来创建代码，尽管如此，本课程中
+You can create these text files in any Text Editor, although, I'll be using the
+
+30
+00:01:49,213 --> 00:01:53,213
+我将会利用Eclipse集成环境来写代码
+Eclipse Integrated Development Environment throughout this course.
+
+31
+00:01:53,213 --> 00:01:56,213
+下面是一个典型的Hello World程序
+Here is a classic Hello World application.
+
+32
+00:01:56,213 --> 00:02:00,213
+如果你用过其他语言，你可能会习惯于
+If you've worked in other programming languages, you might be accustomed to
+
+33
+00:02:00,213 --> 00:02:03,213
+用仅一行代码来实现Hello World程序
+Hello World applications being just a single line of code.
+
+34
+00:02:03,213 --> 00:02:05,213
+但Java并不是这样
+That's not the case in Java.
+
+35
+00:02:05,213 --> 00:02:11,213
+Java中所有东西都是封装在某个类中的，包括
+In Java everything is encapsulated in a class of some kind, including
+
+36
+00:02:11,213 --> 00:02:12,213
+你程序的开始代码
+your start-up code.
+
+37
+00:02:12,213 --> 00:02:16,213
+因此屏幕展示的这些代码应该是
+So this bit of code that I have on the screen represents the simplest
+
+38
+00:02:16,213 --> 00:02:18,213
+最为简单的Java程序
+possible Java application.
+
+39
+00:02:18,213 --> 00:02:21,213
+第一行代码叫包的声明
+The first line of code is called the package declaration.
+
+40
+00:02:21,213 --> 00:02:26,213
+它表明了在你的工程中这个源码文件所处的位置
+It indicates the location of the source code file within your project.
+
+41
+00:02:26,213 --> 00:02:30,213
+包声明通常是一个点分隔字符串，包的开头
+The package declaration is typically a dot separated string, the beginning of
+
+42
+00:02:30,213 --> 00:02:36,213
+一般是你的域名的逆序，因此lynda.com
+the package frequently is your domain name in reverse order, so lynda.com
+
+43
+00:02:36,213 --> 00:02:38,213
+这里变成com.lynda
+might become com.lynda.
+
+44
+00:02:38,213 --> 00:02:42,213
+包名剩下的部分一般表明程序的类型，可以是
+And then the rest of the package indicates what type of application it might be
+
+45
+00:02:42,213 --> 00:02:44,213
+你所在的组织
+within your organization.
+
+46
+00:02:44,213 --> 00:02:47,213
+下一行代码叫做类声明
+The next line of code is called the class declaration.
+
+47
+00:02:47,213 --> 00:02:54,213
+如果你创建一个名为HelloWorld.java文件，其包含一个公共类
+If you create a file called HelloWorld. java it can contain one public class and
+
+48
+00:02:54,213 --> 00:02:58,213
+那么类名必须要跟文件名一致，因此HelloWorld.java文件
+the name of the class must match the name of the file, so the HelloWorld.java
+
+49
+00:02:58,213 --> 00:03:04,213
+必须包含一个名为HelloWorld的公共类，注意名字一致
+file contains a public class named HelloWorld and notice they match exactly.
+
+50
+00:03:04,213 --> 00:03:09,213
+Java是对大小写敏感的，所以你必须确保所有字符严格一致
+Java is a case-sensitive language and you must match these strings precisely.
+
+51
+00:03:09,213 --> 00:03:13,213
+在类里面，有一个叫main的方法
+Within the class there is something called a main method.
+
+52
+00:03:13,213 --> 00:03:18,213
+当你在命令行运行Java程序，Java会寻找
+When you run a Java application from the command line Java will look for this
+
+53
+00:03:18,213 --> 00:03:21,213
+这个特定的方法并自动执行
+particular method and execute it automatically.
+
+54
+00:03:21,213 --> 00:03:25,213
+这个方法的名称必须是"main"(小写)
+The name of the method or function must be main lower case.
+
+55
+00:03:25,213 --> 00:03:30,213
+这个函数的前面三个关键字为public、static以及
+And the three keywords previous to the function name public, static, and
+
+56
+00:03:30,213 --> 00:03:32,213
+void，都是必须的
+void are also required.
+
+57
+00:03:32,213 --> 00:03:35,213
+我会在后面解释它们
+I'll explain what they mean later on.
+
+58
+00:03:35,213 --> 00:03:39,213
+main方方法必须接收一个参数，且必须为
+The main method must receive something called an argument and it must be
+
+59
+00:03:39,213 --> 00:03:41,213
+一个字符串数组
+an array of strings.
+
+60
+00:03:41,213 --> 00:03:46,213
+这让你可以给程序传输一条信息，特别是你从命令行运行程序时
+This allows you to pass an information to the application as you run it from the command line.
+
+61
+00:03:46,213 --> 00:03:49,213
+我们把参数叫做args
+We call that the args argument.
+
+62
+00:03:49,213 --> 00:03:54,213
+最后，在main方法里，你写上需执行的代码
+Finally within the main method, you place your executable code.
+
+63
+00:03:54,213 --> 00:03:58,213
+这个程序就是简单地把Hello World文字输出到命令行上
+This application simply outputs the text Hello World to the command line using
+
+64
+00:03:58,213 --> 00:04:03,213
+使用了“System.out.println”命令
+the command System.out.println or print line.
+
+65
+00:04:03,213 --> 00:04:07,213
+注意这句话的结尾有一分号
+Notice that this string is ended with a semicolon.
+
+66
+00:04:07,213 --> 00:04:12,213
+分号就如英语中的句号，表示一个程序语句的结束
+The semicolon is like a period in English, it means this is the end of the statement.
+
+67
+00:04:12,213 --> 00:04:20,213
+因此“System.out.println("Hello World")”表示输出“Hello World”到命令行中
+So System.out.println("Hello World") means output the string Hello World to the command line.
+
+68
+00:04:20,213 --> 00:04:26,213
+现你创建了源码文件，并且放置到你工程文件夹的某处
+So you create that source code file and you place it somewhere in your project folder.
+
+69
+00:04:26,213 --> 00:04:31,213
+在这例子中我声明了软件包名称为"com.lynda.javatraining;"
+Now in this case I have declared a package named com.lynda.javatraining;
+
+70
+00:04:31,213 --> 00:04:34,213
+表明我放置源代码文件到相应路径所代表
+and so I have to place the source code file in an equivalent
+
+71
+00:04:34,213 --> 00:04:36,213
+的子文件夹中
+subfolder structure.
+
+72
+00:04:36,213 --> 00:04:42,213
+如果HelloWorld是我的工程文件夹名称，那么"com\lynda\javatraining"是
+If HelloWorld is the name of my project folder, then com\lynda\javatraining is
+
+73
+00:04:42,213 --> 00:04:49,213
+我的软件包文件夹，这与源码中的软件包点分隔声明是相对应的
+my package folder, matching the dot separated package as declared in the source code.
+
+74
+00:04:49,213 --> 00:04:54,213
+源代码文件的名称之前我说过是"HelloWorld.java"
+The name of the file as I have indicated before is HelloWorld.java.
+
+75
+00:04:54,213 --> 00:04:59,213
+".java"扩展是你的所有源码文件所必须的
+The .java extension is required in all of your source code files.
+
+76
+00:04:59,213 --> 00:05:03,213
+为编译这个文件，我从工程文件夹HelloWorld开始
+To actually compile that file, I would start at the project directory
+
+77
+00:05:03,213 --> 00:05:08,213
+我运行javac命令，并指向Java的源码文件
+HelloWorld, I would execute the javac command and I'd reference the Java source
+
+78
+00:05:08,213 --> 00:05:10,213
+HelloWorld
+code file HelloWorld.
+
+79
+00:05:10,213 --> 00:05:15,213
+注意我在源码文件名前加上了斜杠分隔
+Notice that I am prefixing the name of the file with a slash separated syntax,
+
+80
+00:05:15,213 --> 00:05:20,213
+"com\lynda\javatraining"然后是文件名
+com\lynda\javatraining\ and then the name of the file.
+
+81
+00:05:20,213 --> 00:05:24,213
+这个视频录制的是Windows系统，所以我用反斜杠，如果你
+This screenshot comes from Windows, so I am using backslashes, but if you were
+
+82
+00:05:24,213 --> 00:05:27,213
+用Mac系统，你应该用正斜杠
+working on Mac you would use forward slashes.
+
+83
+00:05:27,213 --> 00:05:32,213
+编译完后你会发现一新文件，原本的源码文件是
+After compilation you end up with a new file, the original source code file was
+
+84
+00:05:32,213 --> 00:05:38,213
+"HelloWorld.java"，编译出来的文件是"HelloWorld.class"
+HelloWorld.java, the resulting compiled file is HelloWorld.class.
+
+85
+00:05:38,213 --> 00:05:42,213
+".class"文件是你的字节码文件，由于这个程序
+The .class file is your bytecode file, and because this is an application that
+
+86
+00:05:42,213 --> 00:05:48,213
+只包含了一个类，所以这个.class文件已包含整个程序
+only has the single class, that .class file comprises your entire application.
+
+87
+00:05:48,213 --> 00:05:52,213
+因此实际上你在发布应用时，你不需要发布
+So in fact when you are delivering the application you don't have to deliver the
+
+88
+00:05:52,213 --> 00:05:56,213
+.java文件，你只需要发布.class文件
+.java file, you only deliver the classes.
+
+89
+00:05:56,213 --> 00:06:01,213
+为了运行这个程序，我要用到java命令
+Now to run the application from the command line I would use the java command.
+
+90
+00:06:01,213 --> 00:06:05,213
+我会再次从工程文件夹HelloWorld开始，然后调用
+I would once again start in the project directory HelloWorld and I'd call the
+
+91
+00:06:05,213 --> 00:06:10,213
+class文件的点分隔路径，就像在源码中的软件包声明语句
+class using dot separated syntax, just like the package was declared in the
+
+92
+00:06:10,213 --> 00:06:16,213
+一样："com.lynda.javatraining.HelloWorld"
+source code, com.lynda.javatraining.HelloWorld.
+
+93
+00:06:16,213 --> 00:06:20,213
+注意当我运行程序时我并未引用
+And notice that when I run the application I am not referencing the file
+
+94
+00:06:20,213 --> 00:06:26,213
+文件扩展名".class"，我只是引用了文件名："HelloWorld"
+extension .class, I am only referencing the class name, HelloWorld.
+
+95
+00:06:26,213 --> 00:06:31,213
+程序被执行且结果被输出到终端上
+The application runs and the resulting output appears in the console.
+
+96
+00:06:31,213 --> 00:06:36,213
+上面介绍了基本Java语法以及如何编译、运行一个
+So that's a look at basic Java syntax and how you would compile and run a very
+
+97
+00:06:36,213 --> 00:06:38,213
+简单的命令行程序
+simple application from the command line.
+
+98
+00:06:38,213 --> 00:06:42,213
+在剩下的课程中，我会介绍如何利用
+Now throughout the rest of the course, I'll be showing you how to do this in the
+
+99
+00:06:42,213 --> 00:06:45,213
+集成开发环境Eclipse编写程序
+Integrated Development Environment called Eclipse.
+
+100
+00:06:45,213 --> 00:06:49,213
+大多数情况下你不需要接触到命令行下的编译和运行
+And for the most part you'll be protected from compiling and running directly
+
+101
+00:06:49,213 --> 00:06:52,213
+但对此的了解还是十分重要，特别是你想
+from the command line, but it's important to know that if you want to work in
+
+102
+00:06:52,213 --> 00:06:54,213
+用命令行你就能用这方法
+this way you certainly can.
+
+103
+00:06:54,213 --> 00:06:58,213
+一旦你学会了用Java语言，你可以用在什么地方？
+So once you've learned how to work in Java, where can you use it?
+
+104
+00:06:58,213 --> 00:07:02,213
+Java能在多种环境下实现，并用于多种不同
+Well Java is implemented in many environments and used for many different
+
+105
+00:07:02,213 --> 00:07:04,213
+的应用程序
+kinds of applications.
+
+106
+00:07:04,213 --> 00:07:08,213
+你可以用Java开发桌面程序，或通过直接安装到
+You can use Java for Desktop applications either actually installed on the
+
+107
+00:07:08,213 --> 00:07:14,213
+桌面系统中，或通过把Java嵌入到HTML网页中用浏览器运行
+Desktop or delivered through browsers as Java applets embedded in HTML pages.
+
+108
+00:07:14,213 --> 00:07:19,213
+这些叫做图形化Java程序，它们用了一些库例如Swing
+These are called Graphical Java applications and they use libraries called Swing
+
+109
+00:07:19,213 --> 00:07:23,213
+和AWT来构建可视化的界面
+and AWT to build their visual presentation.
+
+110
+00:07:23,213 --> 00:07:28,213
+你也能用Java开发动态网页应用，也就是
+You can also use Java to build dynamic Web applications, that is, applications
+
+111
+00:07:28,213 --> 00:07:34,213
+通过HTML加载到浏览器上的应用，在服务器上运行时会被动态生成
+that are delivered to the browser as HTML, dynamically generated at runtime on a server.
+
+112
+00:07:34,213 --> 00:07:38,213
+这些应用有时叫做J2EE，亦称Java企业版本
+These are sometimes called J2EE or simply Java Enterprise Edition
+
+113
+00:07:38,213 --> 00:07:43,213
+应用，它们一般是在服务器环境中运行，例如Tomcat等环境
+applications and they are executed within server environments such as Tomcat
+
+114
+00:07:43,213 --> 00:07:45,213
+来自Apache或者JBoss
+from Apache or JBoss.
+
+115
+00:07:45,213 --> 00:07:50,213
+这些代码是基于一些模型编写的，模型被称为servlets或者JavaServerPages
+The code is written using models called servlets and JavaServer Pages.
+
+116
+00:07:50,213 --> 00:07:54,213
+这跟编写桌面应用的是同一门语言，但只是
+It's exactly the same language as you might use on the Desktop but it's simply
+
+117
+00:07:54,213 --> 00:07:56,213
+在模型上有点不一样
+modeled a little bit differently.
+
+118
+00:07:56,213 --> 00:08:00,213
+近年来对Java最为流行的应用是移动设备上
+And one of the most popular recent uses of Java is on mobile devices.
+
+119
+00:08:00,213 --> 00:08:06,213
+谷歌的安卓平台利用他们自己名为Dalvik的编译器以及
+The Google Android environment uses its own compiler called Dalvik and tools
+
+120
+00:08:06,213 --> 00:08:10,213
+能在Eclipse运行的谷歌的工具，来创建应用
+provided by Google that run in Eclipse to build applications that run on
+
+121
+00:08:10,213 --> 00:08:12,213
+运行于安卓手机和平板上
+Android phones and tablets.
+
+122
+00:08:12,213 --> 00:08:17,213
+黑莓操作系统同样用Java语言，因此你可以用Java来
+The BlackBerry Operating System also uses Java, so you can use Java to write
+
+123
+00:08:17,213 --> 00:08:21,213
+编写程序运行于黑莓手机上，另外你还能把Java
+applications that run on BlackBerry phones, and you can use Java in many other
+
+124
+00:08:21,213 --> 00:08:24,213
+用在其他很多移动平台
+mobile environments as well.
+
+125
+00:08:24,213 --> 00:08:29,213
+实际上你能用Java开发所有类型的应用，如游戏、移动应用
+You can in fact use Java to build all sorts of applications, games, mobile apps,
+
+126
+00:08:29,213 --> 00:08:35,213
+云计算应用、分布式系统、数据库、网页嵌入系统
+cloud computing applications, distributed systems, databases, websites embedded
+
+127
+00:08:35,213 --> 00:08:39,213
+图像管理、企业信息化管理、等等
+systems, image management, enterprise information management, and many more.
+
+128
+00:08:39,213 --> 00:08:44,213
+至今，你已经大致了解Java的历史、
+So now that you've had a sense of how Java is architected its history, its
+
+129
+00:08:44,213 --> 00:08:50,213
+语法、规则以及怎么样编译和运行Java程序，是时候
+principles, its syntax and how you compile and run Java applications, it's time
+
+130
+00:08:50,213 --> 00:56:01,213
+开始安装Java并编写代码了
+to get started with installing Java and writing your own code.
+
+131
+00:08:52,500 --> 00:08:54,000
+<u><b>字幕GitHub: https://github.com/Hongjiang399/JavaEssentialTrainingSRT.git</u></b>
+
